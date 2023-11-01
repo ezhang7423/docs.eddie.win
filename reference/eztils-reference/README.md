@@ -1,3 +1,7 @@
+---
+description: https://github.com/ezhang7423/eztils
+---
+
 # eztils Reference
 
 Dive into the specifics of each API endpoint by checking out our complete documentation.
@@ -14,8 +18,8 @@ All the methods associated with `CRUD`ing some pets. Which isn't as weird as it 
 
 Everything related to users:
 
-{% content-ref url="../research-template-reference/users.md" %}
-[users.md](../research-template-reference/users.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% hint style="info" %}
