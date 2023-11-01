@@ -1,8 +1,10 @@
+---
+description: >-
+  Here you'll find all the documentation for using a number of different
+  libraries and projects that I am actively using/developing.
+---
+
 # Welcome!
-
-## Welcome to MyAPI
-
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
 
 ## Want to jump right in?
 
