@@ -1,7 +1,7 @@
 ---
 
 description: >-
-[Poetry](https://python-poetry.org/) basically replaces pip, and gives you a maintainable way to track packages. It also makes it trivial to publish to PyPI.
+Poetry @ https://python-poetry.org/ basically replaces pip, and gives you a maintainable way to track packages. It also makes it trivial to publish to PyPI.
 
 ---
 
