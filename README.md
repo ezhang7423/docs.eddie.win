@@ -6,7 +6,7 @@ description: >-
 
 # Welcome!
 
-## Want to jump right in?
+<!-- ## Want to jump right in?
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
 
@@ -20,4 +20,4 @@ Dive a little deeper and start exploring our API reference to get an idea of eve
 
 {% content-ref url="reference/research-template-reference/" %}
 [research-template-reference](reference/research-template-reference/)
-{% endcontent-ref %}
+{% endcontent-ref %} -->
