@@ -6,13 +6,27 @@ description: https://github.com/ezhang7423/research_project
 
 Primary Development Features/Dependencies:
 
-- [Poetry](poetry.md)
-- [Typer ](typer.md)
-- [eztils](../eztils-reference/)
-- [Dockerfile](dockerfile.md)
-- [CI/CD for building and publishing](ci-cd.md)
+* [Poetry](poetry.md)
+* [Typer](typer.md)
+* [eztils](../eztils-reference/)
+* [Dockerfile](dockerfile.md)
+* [CI/CD for building and publishing](ci-cd.md)
 
 Dive into the specifics of each feature by checking out the complete documentation for each.
+
+### Optional Features
+
+Google Drive Remote Filesystem
+
+Option 1 (mounts google drive onto local file system): [https://github.com/astrada/google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse)
+
+Option 2 (makes gdrive act like a local folder with fsspec api):
+
+[https://github.com/fsspec/gdrivefs](https://github.com/fsspec/gdrivefs)
+
+
+
+
 
 ## 🏗️ Development
 
@@ -31,11 +45,11 @@ make codestyle
 
 ### Makefile usage
 
-[`Makefile`](https://github.com/ezhang7423/{{research_project}}/blob/master/Makefile) contains a lot of functions for faster development.
+[`Makefile`](https://github.com/ezhang7423/%7B%7Bresearch\_project%7D%7D/blob/master/Makefile) contains a lot of functions for faster development.
 
 <details>
+
 <summary>1. Download and remove Poetry</summary>
-<p>
 
 To download and install Poetry run:
 
@@ -49,12 +63,11 @@ To uninstall
 make poetry-remove
 ```
 
-</p>
 </details>
 
 <details>
+
 <summary>2. Install all dependencies and pre-commit hooks</summary>
-<p>
 
 Install requirements:
 
@@ -68,12 +81,11 @@ Pre-commit hooks coulb be installed after `git init` via
 make pre-commit-install
 ```
 
-</p>
 </details>
 
 <details>
+
 <summary>3. Codestyle</summary>
-<p>
 
 Automatic formatting uses `pyupgrade`, `isort` and `black`.
 
@@ -90,7 +102,7 @@ Codestyle checks only, without rewriting files:
 make check-codestyle
 ```
 
-> Note: `check-codestyle` uses `isort`, `black` and `darglint` library
+Note: `check-codestyle` uses `isort`, `black` and `darglint` library
 
 Update all dev libraries to the latest version using one comand
 
@@ -98,29 +110,11 @@ Update all dev libraries to the latest version using one comand
 make update-dev-deps
 ```
 
-<details>
-<summary>4. Code security</summary>
-<p>
-
-```bash
-make check-safety
-```
-
-This command launches `Poetry` integrity checks as well as identifies security issues with `Safety` and `Bandit`.
-
-```bash
-make check-safety
-```
-
-</p>
-</details>
-
-</p>
 </details>
 
 <details>
+
 <summary>5. Type checks</summary>
-<p>
 
 Run `mypy` static type checker
 
@@ -128,12 +122,11 @@ Run `mypy` static type checker
 make mypy
 ```
 
-</p>
 </details>
 
 <details>
+
 <summary>6. Tests with coverage badges</summary>
-<p>
 
 Run `pytest`
 
@@ -141,12 +134,11 @@ Run `pytest`
 make test
 ```
 
-</p>
 </details>
 
 <details>
+
 <summary>7. All linters</summary>
-<p>
 
 Of course there is a command to ~~rule~~ run all linters in one:
 
@@ -160,12 +152,11 @@ the same as:
 make test && make check-codestyle && make mypy && make check-safety
 ```
 
-</p>
 </details>
 
 <details>
+
 <summary>8. Docker</summary>
-<p>
 
 ```bash
 make docker-build
@@ -183,14 +174,14 @@ Remove docker image with
 make docker-remove
 ```
 
-More information [about docker](https://github.com/ezhang7423/{{research_project}}/tree/master/docker).
+More information [about docker](https://github.com/ezhang7423/%7B%7Bresearch\_project%7D%7D/tree/master/docker).
 
-</p>
 </details>
 
 <details>
+
 <summary>9. Cleanup</summary>
-<p>
+
 Delete pycache files
 
 ```bash
@@ -203,7 +194,7 @@ Remove package build
 make build-remove
 ```
 
-Delete .DS_STORE files
+Delete .DS\_STORE files
 
 ```bash
 make dsstore-remove
@@ -221,5 +212,4 @@ Or to remove all above run:
 make cleanup
 ```
 
-</p>
 </details>
