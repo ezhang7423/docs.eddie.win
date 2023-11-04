@@ -7,7 +7,6 @@
 
 * [Research Template Reference](reference/research-template-reference/README.md)
   * [Poetry](reference/research-template-reference/poetry.md)
-  * [Pets](reference/research-template-reference/pets.md)
   * [Typer](reference/research-template-reference/typer.md)
   * [Dockerfile](reference/research-template-reference/dockerfile.md)
   * [CI/CD](reference/research-template-reference/ci-cd.md)

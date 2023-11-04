@@ -20,8 +20,8 @@ if __name__ == "__main__":
 
 ## Hierarchical CLI (multiple entrypoints)
 
-Please look through https://github.com/ezhang7423/language-control-diffusion/blob/main/src/lcd__main__.py
+Please look through https://github.com/ezhang7423/language-control-diffusion/blob/main/src/lcd\_\_main\_\_.py
 
-{% embed url="https://github.com/ezhang7423/language-control-diffusion/blob/main/src/lcd/__main__.py" %}
+{% @github-files/github-code-block url="https://github.com/ezhang7423/language-control-diffusion/blob/main/src/lcd/__main__.py" %}
 
 ## Add configuration saving
